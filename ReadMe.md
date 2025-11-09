@@ -38,9 +38,9 @@ This Data Factory is linked to GitHub for version control.
 
 | Item | Description |
 |-------|-------------|
-| **Repository** | `github.com/<your-org>/BmwSalesDataFactory` |
-| **Collaboration branch** | `main` |
-| **Publish branch** | `adf_publish` |
+| **Repository** | `github.com/ramlanka7/BmwSalesDataFactory` |
+| **Collaboration branch** | `dev` |
+| **Publish branch** | `main` |
 | **Root folder** | `/adf` |
 
 ### **Typical Dev Workflow**
