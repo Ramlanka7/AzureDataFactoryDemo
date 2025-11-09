@@ -1,6 +1,4 @@
 
----
-
 ## 🧱 Database Structure
 
 ### **Staging**
@@ -59,6 +57,4 @@ This Data Factory is linked to GitHub for version control.
 - **Self-hosted Integration Runtime**
 - **GitHub Source Control**
 - **T-SQL (ELT transformations)**
-
----
 
