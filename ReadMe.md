@@ -41,7 +41,7 @@ This Data Factory is linked to GitHub for version control.
 | **Repository** | `github.com/ramlanka7/BmwSalesDataFactory` |
 | **Collaboration branch** | `dev` |
 | **Publish branch** | `main` |
-| **Root folder** | `/adf` |
+| **Root folder** | `/` |
 
 ### **Typical Dev Workflow**
 1. Edit pipeline in ADF Studio.
