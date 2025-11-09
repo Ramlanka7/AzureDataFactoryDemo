@@ -46,7 +46,7 @@ This Data Factory is linked to GitHub for version control.
 ### **Typical Dev Workflow**
 1. Edit pipeline in ADF Studio.
 2. **Commit** → saves changes to GitHub.
-3. **Publish** → generates ARM templates in `adf_publish` for deployment.
+3. **Publish** → generates ARM templates in `main` for deployment.
 
 ---
 
