@@ -1,0 +1,67 @@
+{
+	"name": "AzureSqlTable1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "Model",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Year",
+				"type": "smallint",
+				"precision": 5
+			},
+			{
+				"name": "Region",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Color",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Fuel_Type",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Transmission",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Engine_Size_L",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "Mileage_KM",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "Price_USD",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "Sales_Volume",
+				"type": "smallint",
+				"precision": 5
+			},
+			{
+				"name": "Sales_Classification",
+				"type": "nvarchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "W_Sales_2010_2024"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

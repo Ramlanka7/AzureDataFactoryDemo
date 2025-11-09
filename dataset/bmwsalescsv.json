@@ -1,0 +1,69 @@
+{
+	"name": "bmwsalescsv",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "BMW sales data (2010-2024) (1).csv",
+				"container": "rawbmwsales"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "Model",
+				"type": "String"
+			},
+			{
+				"name": "Year",
+				"type": "String"
+			},
+			{
+				"name": "Region",
+				"type": "String"
+			},
+			{
+				"name": "Color",
+				"type": "String"
+			},
+			{
+				"name": "Fuel_Type",
+				"type": "String"
+			},
+			{
+				"name": "Transmission",
+				"type": "String"
+			},
+			{
+				"name": "Engine_Size_L",
+				"type": "String"
+			},
+			{
+				"name": "Mileage_KM",
+				"type": "String"
+			},
+			{
+				"name": "Price_USD",
+				"type": "String"
+			},
+			{
+				"name": "Sales_Volume",
+				"type": "String"
+			},
+			{
+				"name": "Sales_Classification",
+				"type": "String"
+			}
+		]
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

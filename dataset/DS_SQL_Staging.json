@@ -1,0 +1,17 @@
+{
+	"name": "DS_SQL_Staging",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_LocalSQL",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "Staging",
+			"table": "W_Sales_2010_2024"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

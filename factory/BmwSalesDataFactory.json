@@ -1,0 +1,9 @@
+{
+	"name": "BmwSalesDataFactory",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "be755c01-2fee-4cc2-8425-c299cb96d5fc",
+		"tenantId": "c8f06ace-f343-4f49-8cc2-ee940215876f"
+	}
+}
