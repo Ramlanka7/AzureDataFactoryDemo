@@ -62,24 +62,3 @@ This Data Factory is linked to GitHub for version control.
 
 ---
 
-## 🧠 Lessons Learned
-- Copy Activity is ideal for ingestion (simple, fast, low-cost).
-- Transformations are best handled in SQL (via stored procedures) for complex business rules.
-- GitHub integration provides versioning and CI/CD capability.
-- Using Self-hosted IR allows secure access to on-prem SQL instances.
-
----
-
-## ✅ Next Steps
-- Implement **CI/CD deployment** from `adf_publish` branch to Test/Prod Data Factories.
-- Add **data quality checks** or **email alerts** for pipeline runs.
-- Parameterize pipeline for dynamic file names or incremental loads.
-
----
-
-## 👨‍💻 Author
-**Ram**  
-Software Engineer (.NET, C#, Azure)  
-Data Engineering & Cloud Enthusiast 🚀
-
----
